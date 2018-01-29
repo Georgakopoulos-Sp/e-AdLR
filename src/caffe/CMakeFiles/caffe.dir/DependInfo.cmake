@@ -84,6 +84,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/net.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/parallel.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o"
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/solver.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
+  "/home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/ADLR_solver.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o"
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adadelta_solver.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adagrad_solver.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adam_solver.cpp" "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"

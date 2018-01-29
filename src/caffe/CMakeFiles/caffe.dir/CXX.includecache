@@ -914,6 +914,14 @@ caffe/util/io.hpp
 caffe/util/upgrade_proto.hpp
 /home/legolas/CNN_libs/caffe-master_last/src/caffe/caffe/util/upgrade_proto.hpp
 
+/home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/ADLR_solver.cpp
+vector
+-
+caffe/sgd_solvers.hpp
+/home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/caffe/sgd_solvers.hpp
+fstream
+-
+
 /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adadelta_solver.cpp
 vector
 -

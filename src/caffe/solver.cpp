@@ -273,6 +273,28 @@ void Solver<Dtype>::Solve(const char* resume_file) {
   LOG(INFO) << "Learning Rate Policy: " << param_.lr_policy();
 
   ofs_1.open ("result.txt", std::ofstream::out | std::fstream::app);
+  ofs_3.open ("train_loss.txt", std::ofstream::out | std::fstream::app);
+	my_adaptive_learning_rate = this->param_.base_lr();
+	for (int ii=0;ii<this->net_->params().size();ii++)
+	{
+//if (ii==2)
+//{
+//      std::cout<<net_->blobs()[ii]->cpu_data()[net_->blobs()[ii]->count()-1]<<std::endl;
+//        std::cout<<net_->blobs()[ii]->num()<<std::endl;
+//        std::cout<<net_->blobs()[ii]->channels()<<std::endl;
+//        std::cout<<net_->blobs()[ii]->height()<<std::endl;
+ //       std::cout<<net_->blobs()[ii]->width()<<std::endl;
+//      const string &tmp_name = net_->blob_names()[ii];
+//      vector<shared_ptr<Blob<Dtype> > > &tmp = this->net_->blob_by_name(tmp_name);
+//}
+//std::cout<<"Name "<<net_->layer_names()[ii]<<std::endl;
+//      my_learning_rate.push_back(this->net_->params_lr()[ii]);
+        my_learning_rate.push_back(this->net_->params_lr()[ii]*this->param_.base_lr());
+		flag_1.push_back(0);
+		flag_2.push_back(0);
+}
+
+// END
 
 
   // Initialize to false every time we start solving.
@@ -317,6 +339,7 @@ void Solver<Dtype>::Solve(const char* resume_file) {
   }
   LOG(INFO) << "Optimization Done.";
   ofs_1.close();
+  ofs_3.close();
 
 }
 

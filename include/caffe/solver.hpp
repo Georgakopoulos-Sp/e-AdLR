@@ -96,7 +96,9 @@ class Solver {
    */
   virtual inline const char* type() const { return ""; }
 
-std::ofstream ofs_1;
+  
+  std::ofstream ofs_1;
+  std::ofstream ofs_3;
 
  protected:
   // Make and apply the update value for the current iteration.
@@ -117,10 +119,24 @@ std::ofstream ofs_1;
   int iter_;
   int current_step_;
   shared_ptr<Net<Dtype> > net_;
+// START
+int self_iter;
+bool flag;
+Dtype averate_weight;
+//END
   vector<shared_ptr<Net<Dtype> > > test_nets_;
   vector<Callback*> callbacks_;
   vector<Dtype> losses_;
   Dtype smoothed_loss_;
+// START
+	std::ofstream ofs_Lp;
+	vector<Dtype> my_learning_rate;
+	Dtype my_adaptive_learning_rate_previous;
+	Dtype my_adaptive_learning_rate;
+	Dtype my_descrese_local_rate;
+	vector<bool> flag_1;
+	vector<bool> flag_2;
+// END
 
   // A function that can be set by a client of the Solver to provide indication
   // that it wants a snapshot saved and/or to exit early.

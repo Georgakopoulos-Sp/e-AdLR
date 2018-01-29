@@ -74,6 +74,12 @@ void SGDSolver<Dtype>::PreSolve() {
     history_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
     update_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
     temp_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
+// Start 
+    old1_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
+    old2_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
+    orig_history_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
+    tmp_history_.push_back(shared_ptr<Blob<Dtype> >(new Blob<Dtype>(shape)));
+// END
   }
 }
 

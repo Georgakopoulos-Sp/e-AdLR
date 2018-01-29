@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o"
   "CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o"
+  "CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o"
   "CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o"
   "CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o"
   "CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o"
@@ -70,6 +71,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
   "CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
   "CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
+  "CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o"
   "CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
   "CMakeFiles/caffe.dir/layers/exp_layer.cpp.o"
   "CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o"

@@ -87,6 +87,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.depend"
   "src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.depend"
   "src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.depend"
+  "src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o.depend"
   "src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.depend"
   "src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o.depend"
   "src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o.depend"

@@ -198,13 +198,13 @@ src/gtest/preinstall:
 src/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f src/gtest/CMakeFiles/gtest.dir/build.make src/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f src/gtest/CMakeFiles/gtest.dir/build.make src/gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles  69
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 
 	@echo "Built target gtest"
 .PHONY : src/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 src/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/gtest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : src/gtest/CMakeFiles/gtest.dir/rule
@@ -340,7 +340,7 @@ src/caffe/test/CMakeFiles/runtest.dir/all: src/caffe/test/CMakeFiles/test.testbi
 
 # Build rule for subdir invocation for target.
 src/caffe/test/CMakeFiles/runtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 93
 	$(MAKE) -f CMakeFiles/Makefile2 src/caffe/test/CMakeFiles/runtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/rule
@@ -373,7 +373,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/all: src/caffe/CMakeFiles/caffe.dir/a
 
 # Build rule for subdir invocation for target.
 src/caffe/test/CMakeFiles/test.testbin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 94
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 93
 	$(MAKE) -f CMakeFiles/Makefile2 src/caffe/test/CMakeFiles/test.testbin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/rule
@@ -472,7 +472,7 @@ tools/CMakeFiles/compute_image_mean.dir/all: src/caffe/CMakeFiles/caffeproto.dir
 tools/CMakeFiles/compute_image_mean.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 	$(MAKE) -f tools/CMakeFiles/compute_image_mean.dir/build.make tools/CMakeFiles/compute_image_mean.dir/depend
 	$(MAKE) -f tools/CMakeFiles/compute_image_mean.dir/build.make tools/CMakeFiles/compute_image_mean.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles  66
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 
 	@echo "Built target compute_image_mean"
 .PHONY : tools/CMakeFiles/compute_image_mean.dir/all
 
@@ -482,7 +482,7 @@ all: tools/CMakeFiles/compute_image_mean.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/compute_image_mean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 65
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/compute_image_mean.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : tools/CMakeFiles/compute_image_mean.dir/rule
@@ -508,7 +508,7 @@ tools/CMakeFiles/convert_imageset.dir/all: src/caffe/CMakeFiles/caffeproto.dir/a
 tools/CMakeFiles/convert_imageset.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 	$(MAKE) -f tools/CMakeFiles/convert_imageset.dir/build.make tools/CMakeFiles/convert_imageset.dir/depend
 	$(MAKE) -f tools/CMakeFiles/convert_imageset.dir/build.make tools/CMakeFiles/convert_imageset.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles  67
 	@echo "Built target convert_imageset"
 .PHONY : tools/CMakeFiles/convert_imageset.dir/all
 
@@ -518,7 +518,7 @@ all: tools/CMakeFiles/convert_imageset.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/convert_imageset.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/convert_imageset.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : tools/CMakeFiles/convert_imageset.dir/rule
@@ -616,7 +616,7 @@ tools/CMakeFiles/finetune_net.dir/all: src/caffe/CMakeFiles/caffeproto.dir/all
 tools/CMakeFiles/finetune_net.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 	$(MAKE) -f tools/CMakeFiles/finetune_net.dir/build.make tools/CMakeFiles/finetune_net.dir/depend
 	$(MAKE) -f tools/CMakeFiles/finetune_net.dir/build.make tools/CMakeFiles/finetune_net.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles  69
 	@echo "Built target finetune_net"
 .PHONY : tools/CMakeFiles/finetune_net.dir/all
 
@@ -626,7 +626,7 @@ all: tools/CMakeFiles/finetune_net.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/finetune_net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/finetune_net.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : tools/CMakeFiles/finetune_net.dir/rule
@@ -889,7 +889,7 @@ examples/CMakeFiles/classification.dir/all: src/caffe/CMakeFiles/caffeproto.dir/
 examples/CMakeFiles/classification.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 	$(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/depend
 	$(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles  66
 	@echo "Built target classification"
 .PHONY : examples/CMakeFiles/classification.dir/all
 
@@ -899,7 +899,7 @@ all: examples/CMakeFiles/classification.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/classification.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 66
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/classification.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : examples/CMakeFiles/classification.dir/rule
@@ -961,7 +961,7 @@ examples/CMakeFiles/convert_mnist_data.dir/all: src/caffe/CMakeFiles/caffeproto.
 examples/CMakeFiles/convert_mnist_data.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 	$(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/depend
 	$(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles  67
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 
 	@echo "Built target convert_mnist_data"
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/all
 
@@ -971,7 +971,7 @@ all: examples/CMakeFiles/convert_mnist_data.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/convert_mnist_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 65
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/legolas/CNN_libs/caffe-master_last/CMakeFiles 0
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/rule

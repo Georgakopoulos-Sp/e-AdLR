@@ -56,6 +56,7 @@ edd442568a58486bf015eb5caf1ffe74 src/caffe/CMakeFiles/cuda_compile.dir/layers/cu
 1a55ce92344e4f9c031ef32976957df4 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o
 93c5939fdc144fd67a7060bd00c06ae8 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o
 ee890081127b84a5418996ca2a10b448 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o
+3b844ba371fc7388ec3e6e4ffefa2a2c src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o
 3901e54f263e2744587109298faecf15 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o
 28fa1f4533ba3379b9f5042e4e490ec3 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o
 bdb05a4818069c92951cc15ec7321176 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o

@@ -2114,6 +2114,30 @@ solver.cpp.s:
 	cd /home/legolas/CNN_libs/caffe-master_last && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/solver.cpp.s
 .PHONY : solver.cpp.s
 
+solvers/ADLR_solver.o: solvers/ADLR_solver.cpp.o
+.PHONY : solvers/ADLR_solver.o
+
+# target to build an object file
+solvers/ADLR_solver.cpp.o:
+	cd /home/legolas/CNN_libs/caffe-master_last && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o
+.PHONY : solvers/ADLR_solver.cpp.o
+
+solvers/ADLR_solver.i: solvers/ADLR_solver.cpp.i
+.PHONY : solvers/ADLR_solver.i
+
+# target to preprocess a source file
+solvers/ADLR_solver.cpp.i:
+	cd /home/legolas/CNN_libs/caffe-master_last && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.i
+.PHONY : solvers/ADLR_solver.cpp.i
+
+solvers/ADLR_solver.s: solvers/ADLR_solver.cpp.s
+.PHONY : solvers/ADLR_solver.s
+
+# target to generate assembly for a file
+solvers/ADLR_solver.cpp.s:
+	cd /home/legolas/CNN_libs/caffe-master_last && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.s
+.PHONY : solvers/ADLR_solver.cpp.s
+
 solvers/adadelta_solver.o: solvers/adadelta_solver.cpp.o
 .PHONY : solvers/adadelta_solver.o
 
@@ -2851,6 +2875,9 @@ help:
 	@echo "... solver.o"
 	@echo "... solver.i"
 	@echo "... solver.s"
+	@echo "... solvers/ADLR_solver.o"
+	@echo "... solvers/ADLR_solver.i"
+	@echo "... solvers/ADLR_solver.s"
 	@echo "... solvers/adadelta_solver.o"
 	@echo "... solvers/adadelta_solver.i"
 	@echo "... solvers/adadelta_solver.s"

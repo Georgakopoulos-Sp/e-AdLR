@@ -3,6 +3,10 @@
 #include <thrust/functional.h>  // thrust::plus
 #include <thrust/reduce.h>
 
+#include <thrust/device_vector.h>
+#include <thrust/extrema.h>
+
+
 #include <cmath>
 
 #include "caffe/common.hpp"
@@ -455,5 +459,208 @@ void caffe_gpu_rng_gaussian(const int n, const double mu, const double sigma,
   CURAND_CHECK(
       curandGenerateNormalDouble(Caffe::curand_generator(), r, n, mu, sigma));
 }
+
+//----------- MY max -----------------
+
+template <>
+void caffe_gpu_max<float>(const int n, const float* x, int* y) {
+  CUBLAS_CHECK(cublasIsamax(Caffe::cublas_handle(), n, x, 1, y));
+}
+
+template <>
+void caffe_gpu_max<double>(const int n, const double* x, int* y) {
+  CUBLAS_CHECK(cublasIdamax(Caffe::cublas_handle(), n, x, 1, y));
+}
+//--------- end my max-----------------------------
+
+
+//----------- MY min -----------------
+
+template <>
+void caffe_gpu_min<float>(const int n, const float* x, int* y) {
+  CUBLAS_CHECK(cublasIsamin(Caffe::cublas_handle(), n, x, 1, y));
+}
+
+template <>
+void caffe_gpu_min<double>(const int n, const double* x, int* y) {
+  CUBLAS_CHECK(cublasIdamin(Caffe::cublas_handle(), n, x, 1, y));
+}
+//--------- end my min-----------------------------
+
+
+// ------------ My add --------------------------
+template <typename Dtype>
+__global__ void my_add_kernel(const int n, const Dtype* a,
+    Dtype b, Dtype* y) {
+  CUDA_KERNEL_LOOP(index, n) {
+    y[index] = a[index] + b;
+  }
+}
+
+template <>
+void my_caffe_gpu_add<float>(const int N, const float* a,
+    float b, float* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+  my_add_kernel<float><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(
+      N, a, b, y);
+}
+
+template <>
+void my_caffe_gpu_add<double>(const int N, const double* a,
+    double b, double* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+  my_add_kernel<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(
+      N, a, b, y);
+}
+// --------------- END div ------------------------------
+
+
+
+// ------------ My div --------------------------
+template <typename Dtype>
+__global__ void my_div_kernel(const int n, const Dtype* a,
+    Dtype b, Dtype* y) {
+  CUDA_KERNEL_LOOP(index, n) {
+    y[index] = a[index] / b;
+  }
+}
+
+template <>
+void my_caffe_gpu_div<float>(const int N, const float* a,
+    float b, float* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+  my_div_kernel<float><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(
+      N, a, b, y);
+}
+
+template <>
+void my_caffe_gpu_div<double>(const int N, const double* a,
+    double b, double* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+  my_div_kernel<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(
+      N, a, b, y);
+}
+// --------------- END div ------------------------------
+
+
+// ------------ My Reg --------------------------
+template <typename Dtype>
+__global__ void my_reg_kernel_pos(const int n, const Dtype* a,
+    Dtype max, Dtype min, Dtype* y) {
+  CUDA_KERNEL_LOOP(index, n) {
+    y[index] = ((a[index] - min) / (max - min));
+  }
+}
+
+
+template <typename Dtype>
+__global__ void my_reg_kernel_neg(const int n, const Dtype* a,
+    Dtype max, Dtype min, Dtype* y) {
+  CUDA_KERNEL_LOOP(index, n) {
+    y[index] = ((a[index] - min) / (max - min))*(0 - (-1)) + (-1);
+  }
+}
+
+
+template <typename Dtype>
+__global__ void my_reg_kernel_all(const int n, const Dtype* a,
+    Dtype max, Dtype min, Dtype* y) {
+  CUDA_KERNEL_LOOP(index, n) {
+    y[index] = ((a[index] - min) / (max - min))*(1 - (-1)) + (-1);
+  }
+}
+
+template <>
+void my_caffe_gpu_reg<float>(const int N, const float* a,
+    float b, float c, float* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+	if (c>=0 && b >=0)
+	{
+		my_reg_kernel_pos<float><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	else if (c<0 && b>=0){
+		my_reg_kernel_all<float><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	else if (c<0 && b<0){
+		my_reg_kernel_neg<float><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+
+}
+
+template <>
+void my_caffe_gpu_reg<double>(const int N, const double* a,
+    double b, double c, double* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+	if (c>=0 && b >=0)
+	{
+		my_reg_kernel_pos<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	else if (c<0 && b>=0){
+		my_reg_kernel_all<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	else if (c<0 && b<0){
+		my_reg_kernel_neg<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	// Old one
+	/*
+	if (c>=0)
+	{
+		my_reg_kernel_pos<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	else{
+		my_reg_kernel_all<double><<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(N, a, b, c, y);
+	}
+	*/
+}
+// --------------- END Reg ------------------------------
+
+
+// ------------ My New Min --------------------------
+template <typename Dtype>
+__global__ void my_new_min_kernel(const int n, const Dtype* a,
+    Dtype *max, Dtype *min, Dtype* y) {
+	Dtype min_=10000;
+	Dtype max_=-1000;
+	Dtype sum=0.0;
+  for (int i=0;i<n;i++) {
+	  if (a[i]<min_){
+//		  min_ = a[i];
+	  }
+	  if (a[i]>max_){
+//		  max_=a[i];
+	  }
+	  sum=sum+a[i];
+  }
+  *max=max_;
+  *min=min_;
+}
+
+template <>
+void my_caffe_gpu_new_min<float>(const int N, const float* a,
+    float *b, float *c, float* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+//	float aa= *a;
+	thrust::device_ptr<float> min_ptr = thrust::min_element(thrust::device_pointer_cast(y), thrust::device_pointer_cast(y) + N);
+	thrust::device_ptr<float> max_ptr = thrust::max_element(thrust::device_pointer_cast(y), thrust::device_pointer_cast(y) + N);
+	*c=min_ptr[0];
+	*b = max_ptr[0];
+//	*b=2;
+//  my_new_min_kernel<float><<<CAFFE_GET_BLOCKS(N), 0>>>(    N, a, b, c, y);
+}
+
+template <>
+void my_caffe_gpu_new_min<double>(const int N, const double* a,
+    double *b, double *c, double* y) {
+  // NOLINT_NEXT_LINE(whitespace/operators)
+//	double aa=*a;
+	thrust::device_ptr<double> min_ptr = thrust::min_element(thrust::device_pointer_cast(y), thrust::device_pointer_cast(y) + N);
+	thrust::device_ptr<double> max_ptr = thrust::max_element(thrust::device_pointer_cast(y), thrust::device_pointer_cast(y) + N);
+	*c=min_ptr[0];
+	*b = max_ptr[0];
+//	*b=2;
+//  	my_new_min_kernel<double><<<CAFFE_GET_BLOCKS(N), 0>>>( N, a, b, c, y);
+}
+// --------------- END New Min ------------------------------
+
 
 }  // namespace caffe

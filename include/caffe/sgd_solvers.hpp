@@ -41,6 +41,11 @@ class SGDSolver : public Solver<Dtype> {
   // temp maintains other information that might be needed in computation
   //   of gradients/updates and is not needed in snapshots
   vector<shared_ptr<Blob<Dtype> > > history_, update_, temp_;
+//START
+  vector<shared_ptr<Blob<Dtype> > > old1_, old2_;
+// parameters to store the old origin weights
+  vector<shared_ptr<Blob<Dtype> > > orig_history_, tmp_history_;
+// END
 
   DISABLE_COPY_AND_ASSIGN(SGDSolver);
 };
@@ -118,6 +123,29 @@ class AdaDeltaSolver : public SGDSolver<Dtype> {
 
   DISABLE_COPY_AND_ASSIGN(AdaDeltaSolver);
 };
+
+
+// ******************* ADLR *******************************//
+
+template <typename Dtype>
+class ADLRSolver : public SGDSolver<Dtype> {
+ public:
+  explicit ADLRSolver(const SolverParameter& param)
+      : SGDSolver<Dtype>(param) { ADLRPreSolve(); }
+  explicit ADLRSolver(const string& param_file)
+      : SGDSolver<Dtype>(param_file) { ADLRPreSolve(); }
+  virtual inline const char* type() const { return "ADLR"; }
+
+ protected:
+  void ADLRPreSolve();
+  virtual void ComputeUpdateValue(int param_id, Dtype rate);
+
+  DISABLE_COPY_AND_ASSIGN(ADLRSolver);
+};
+
+// ******************* END ADLR ****************************//
+
+
 
 /**
  * @brief AdamSolver, an algorithm for first-order gradient-based optimization

@@ -257,6 +257,26 @@ void caffe_gpu_fabs(const int n, const Dtype* x, Dtype* y);
 template <typename Dtype>
 void caffe_gpu_scale(const int n, const Dtype alpha, const Dtype *x, Dtype* y);
 
+template <typename Dtype>
+void caffe_gpu_max(const int n, const Dtype *x, int *y);
+
+template <typename Dtype>
+void caffe_gpu_min(const int n, const Dtype *x, int *y);
+
+
+template <typename Dtype>
+void my_caffe_gpu_add(const int N, const Dtype* a, Dtype b, Dtype* y);
+
+template <typename Dtype>
+void my_caffe_gpu_div(const int N, const Dtype* a, Dtype b, Dtype* y);
+
+template <typename Dtype>
+void my_caffe_gpu_reg(const int N, const Dtype* a, Dtype b, Dtype c, Dtype* y);
+
+template <typename Dtype>
+void my_caffe_gpu_new_min(const int N, const Dtype* a, Dtype *b, Dtype *c, Dtype* y);
+
+
 #define DEFINE_AND_INSTANTIATE_GPU_UNARY_FUNC(name, operation) \
 template<typename Dtype> \
 __global__ void name##_kernel(const int n, const Dtype* x, Dtype* y) { \

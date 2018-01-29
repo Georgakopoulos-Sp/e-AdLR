@@ -50,8 +50,6 @@ include src/caffe/CMakeFiles/caffe.dir/progress.make
 include src/caffe/CMakeFiles/caffe.dir/flags.make
 
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -151,7 +149,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -178,7 +175,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/c++/4.8/new
@@ -195,17 +191,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/include/limits.h
@@ -306,7 +291,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -364,8 +348,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_adam_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_adam_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o.cmake
 
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -465,7 +447,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -492,7 +473,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/c++/4.8/new
@@ -509,17 +489,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/include/limits.h
@@ -620,7 +589,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -677,9 +645,305 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_sol
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_adagrad_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_adagrad_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o.cmake
 
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: include/caffe/common.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: include/caffe/util/device_alternate.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: include/caffe/util/math_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: include/caffe/util/mkl_alternate.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: src/caffe/solvers/ADLR_solver.cu
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/_G_config.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/alloca.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/asm-generic/errno-base.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/asm-generic/errno.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/assert.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/atlas/cblas.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/assert.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/checked_delete.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/compiler/gcc.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/platform/linux.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/posix_features.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/select_compiler_config.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/select_platform_config.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/suffix.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/config/user.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/current_function.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/detail/workaround.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/exception/exception.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/memory_order.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/shared_ptr.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/boost/throw_exception.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/algorithm
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/backward/binders.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/allocator.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/basic_string.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/char_traits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/codecvt.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/concept_check.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/functexcept.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/ios_base.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/istream.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/localefwd.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/move.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/postypes.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/range_access.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_function.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_map.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_set.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/bits/vector.tcc
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cctype
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/climits
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/clocale
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cmath
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cstddef
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cstdio
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cstdlib
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cwchar
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/cwctype
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/debug/debug.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/exception
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ext/atomicity.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ext/type_traits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/fstream
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/functional
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ios
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/iosfwd
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/iostream
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/istream
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/map
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/memory
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/new
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/ostream
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/set
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/sstream
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/streambuf
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/string
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/typeinfo
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/utility
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/c++/4.8/vector
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/ctype.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/endian.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/errno.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/features.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/getopt.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/inttypes.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/libio.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/limits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/linux/errno.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/linux/limits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/locale.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/math.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/pthread.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/sched.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/stdc-predef.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/stdint.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/stdio.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/stdlib.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/string.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/time.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/unistd.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/wchar.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/wctype.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/string3.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/include/xlocale.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/builtin_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/channel_descriptor.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/common_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuComplex.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cublas_api.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cublas_v2.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda_fp16.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda_runtime.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/curand.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_double_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_double_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_launch_parameters.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/device_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/driver_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/driver_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/host_config.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/host_defines.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/library_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/math_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/math_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/math_functions_dbl_ptx3.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_20_atomic_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_20_intrinsics.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_20_intrinsics.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_30_intrinsics.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_30_intrinsics.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_32_atomic_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_32_intrinsics.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_32_intrinsics.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_35_atomic_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_35_intrinsics.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_60_atomic_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_61_intrinsics.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/sm_61_intrinsics.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/surface_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/surface_indirect_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/surface_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/texture_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/vector_functions.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/vector_functions.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/cuda/include/vector_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/include/gflags/gflags.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/include/gflags/gflags_declare.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/include/gflags/gflags_gflags.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/include/glog/log_severity.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/include/glog/logging.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: /usr/local/include/glog/vlog_is_on.h
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o.cmake
+src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o: src/caffe/solvers/ADLR_solver.cu
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o"
+	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/.
+	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_ADLR_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_ADLR_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o.cmake
+
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -779,7 +1043,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -806,7 +1069,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/c++/4.8/new
@@ -823,17 +1085,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/include/limits.h
@@ -934,7 +1185,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -986,14 +1236,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o: src/caffe/solvers/adadelta_solver.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_adadelta_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_adadelta_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.cmake
 
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -1093,7 +1341,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -1120,7 +1367,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/c++/4.8/new
@@ -1137,17 +1383,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/include/limits.h
@@ -1248,7 +1483,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -1300,14 +1534,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_so
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o: src/caffe/solvers/nesterov_solver.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_nesterov_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_nesterov_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o.cmake
 
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -1407,7 +1639,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -1434,7 +1665,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/c++/4.8/new
@@ -1451,17 +1681,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/include/limits.h
@@ -1562,7 +1781,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -1614,14 +1832,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_sol
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o: src/caffe/solvers/rmsprop_solver.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_rmsprop_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_rmsprop_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o.cmake
 
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -1721,7 +1937,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -1748,7 +1963,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/c++/4.8/new
@@ -1765,17 +1979,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/include/limits.h
@@ -1876,7 +2079,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -1928,7 +2130,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o: src/caffe/solvers/sgd_solver.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_sgd_solver.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/./cuda_compile_generated_sgd_solver.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o.cmake
@@ -1941,7 +2143,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/layers/embed_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/util/gpu_util.cuh
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: include/caffe/util/math_functions.hpp
@@ -2197,7 +2398,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -2249,7 +2449,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o: src/caffe/layers/embed_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_embed_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_embed_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o.cmake
@@ -2261,7 +2461,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/layers/hdf5_output_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -2556,7 +2755,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -2608,7 +2806,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o: src/caffe/layers/hdf5_output_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_hdf5_output_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_hdf5_output_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o.cmake
@@ -2620,7 +2818,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/layers/filter_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -2875,7 +3072,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -2927,7 +3123,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o: src/caffe/layers/filter_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_filter_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_filter_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o.cmake
@@ -2940,7 +3136,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/layers/prelu_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -3195,7 +3390,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -3247,7 +3441,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o: src/caffe/layers/prelu_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_prelu_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_prelu_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o.cmake
@@ -3260,7 +3454,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_lay
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/layers/loss_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -3515,7 +3708,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_lay
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -3567,7 +3759,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_lay
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o: src/caffe/layers/accuracy_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_accuracy_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_accuracy_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_accuracy_layer.cu.o.cmake
@@ -3579,7 +3771,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/layers/reduction_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -3834,7 +4025,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -3886,218 +4076,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o: src/caffe/layers/reduction_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_reduction_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_reduction_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/layers/cudnn_relu_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/layers/neuron_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/layers/relu_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: src/caffe/layers/cudnn_relu_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -4111,24 +4134,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -4141,22 +4152,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -4199,15 +4202,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o: src/caffe/layers/cudnn_relu_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_relu_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_relu_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o.cmake
@@ -4220,7 +4217,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/layers/neuron_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -4475,7 +4471,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -4527,7 +4522,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o: src/caffe/layers/dropout_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_dropout_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_dropout_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o.cmake
@@ -4540,7 +4535,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/layers/neuron_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -4795,7 +4789,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -4847,7 +4840,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o: src/caffe/layers/bnll_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_bnll_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_bnll_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o.cmake
@@ -4860,7 +4853,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_produc
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/layers/inner_product_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -5115,7 +5107,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_produc
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -5167,7 +5158,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_produc
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o: src/caffe/layers/inner_product_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_inner_product_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_inner_product_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o.cmake
@@ -5180,7 +5171,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/layers/loss_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -5435,7 +5425,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -5487,7 +5476,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o: src/caffe/layers/contrastive_loss_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_contrastive_loss_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_contrastive_loss_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o.cmake
@@ -5500,7 +5489,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/layers/neuron_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -5755,7 +5743,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -5807,7 +5794,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o: src/caffe/layers/absval_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_absval_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_absval_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o.cmake
@@ -5820,7 +5807,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/layers/deconv_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/util/im2col.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: include/caffe/util/math_functions.hpp
@@ -6076,7 +6062,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -6128,7 +6113,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o: src/caffe/layers/deconv_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_deconv_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_deconv_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o.cmake
@@ -6140,7 +6125,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/layers/concat_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -6395,7 +6379,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -6447,7 +6430,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o: src/caffe/layers/concat_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_concat_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_concat_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o.cmake
@@ -6460,7 +6443,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/layers/sigmoid_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -6715,7 +6697,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -6767,7 +6748,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o: src/caffe/layers/sigmoid_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_sigmoid_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_sigmoid_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o.cmake
@@ -6780,7 +6761,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/layers/threshold_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -7035,7 +7015,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -7087,7 +7066,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o: src/caffe/layers/threshold_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_threshold_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_threshold_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.cmake
@@ -7099,7 +7078,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/layers/tile_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -7354,7 +7332,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -7406,7 +7383,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o: src/caffe/layers/tile_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_tile_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_tile_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.cmake
@@ -7419,7 +7396,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/layers/scale_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -7676,7 +7652,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -7728,7 +7703,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o: src/caffe/layers/scale_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_scale_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_scale_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o.cmake
@@ -7741,7 +7716,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/layers/tanh_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -7996,7 +7970,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -8048,7 +8021,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o: src/caffe/layers/tanh_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_tanh_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_tanh_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.cmake
@@ -8061,7 +8034,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/layers/power_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -8316,7 +8288,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -8368,7 +8339,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o: src/caffe/layers/power_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_power_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_power_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o.cmake
@@ -8381,7 +8352,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/layers/neuron_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -8636,7 +8606,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -8688,7 +8657,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o: src/caffe/layers/elu_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_elu_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_elu_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o.cmake
@@ -8700,7 +8669,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/layers/mvn_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -8955,7 +8923,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -9007,218 +8974,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o: src/caffe/layers/mvn_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_mvn_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_mvn_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/layers/cudnn_sigmoid_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/layers/neuron_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/layers/sigmoid_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: src/caffe/layers/cudnn_sigmoid_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -9232,24 +9032,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoi
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -9262,22 +9050,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoi
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -9320,229 +9100,53 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoi
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o: src/caffe/layers/cudnn_sigmoid_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_sigmoid_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_sigmoid_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/layers/cudnn_softmax_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/layers/softmax_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: src/caffe/layers/cudnn_softmax_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cassert
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cstring
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/limits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/stdexcept
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -9556,24 +9160,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softma
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -9586,22 +9178,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softma
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -9641,392 +9225,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softma
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/advance.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/advance.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/allocator_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/allocator_traits.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/copy_construct_range.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/default_construct_range.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/default_construct_range.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/destroy_range.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/destroy_range.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/fill_construct_range.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/fill_construct_range.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/no_throw_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/tagged_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/tagged_allocator.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/temporary_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/allocator/temporary_allocator.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/compiler.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/compiler_fence.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/debug.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/device_system.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/exec_check_disable.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/forceinline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/global_workarounds.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/host_device.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/host_system.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/config/simple_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/contiguous_storage.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/contiguous_storage.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/copy.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/cstdint.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/device_free.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/device_malloc.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/device_ptr.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/device_reference.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/device_vector.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/dispatch/is_trivial_copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/distance.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/equal.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/execute_with_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/execution_policy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/fill.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/find.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/for_each.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/actor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/actor.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/argument.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/composite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/arithmetic_operators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/assignment_operator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/bitwise_operators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/compound_assignment_operators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/logical_operators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/operator_adaptors.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/relational_operators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/placeholder.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/functional/value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/generate.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/host_vector.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/integer_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/internal_functional.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/malloc_and_free.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/minmax.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/mismatch.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/numeric_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/overlapped_copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/pair.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/pointer.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/pointer.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/range/head_flags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/range/tail_flags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/raw_pointer_cast.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/raw_reference_cast.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/reduce.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/reference.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/reference.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/reference_forward_declaration.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/replace.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/scan.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/scatter.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/seq.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/static_assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/swap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/swap.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/swap_ranges.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/temporary_array.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/temporary_array.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/temporary_buffer.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/transform.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/tuple.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/tuple_meta_transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/tuple_transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/algorithm/intermediate_type_from_function_and_iterators.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/function_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/has_member_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/has_nested_type.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/has_trivial_assign.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/is_call_possible.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/is_metafunction_defined.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/iterator/is_output_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/minimum_type.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/pointer_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/type_traits/result_of_adaptable_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/uninitialized_fill.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/use_default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/util/blocking.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/vector_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/detail/vector_base.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/device_free.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/device_malloc.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/device_malloc_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/device_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/device_reference.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/device_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/distance.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/equal.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/find.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/for_each.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/functional.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/generate.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/host_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/constant_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/counting_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/any_assign.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/any_system_tag.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/constant_iterator_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/counting_iterator.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/device_system_tag.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/discard_iterator_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/distance_from_result.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/host_system_tag.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/is_iterator_category.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/is_trivial_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_adaptor_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_category_to_system.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_category_to_traversal.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_category_with_system_and_traversal.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_facade_category.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_traits.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/iterator_traversal_tags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/join_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/minimum_category.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/minimum_system.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/normal_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/permutation_iterator_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/reverse_iterator.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/reverse_iterator_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/tagged_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/transform_iterator.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/tuple_of_iterator_references.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/universal_categories.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/zip_iterator.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/detail/zip_iterator_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/discard_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/iterator_adaptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/iterator_categories.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/iterator_facade.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/iterator_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/permutation_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/reverse_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/transform_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/iterator/zip_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/memory.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/mismatch.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/reduce.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/replace.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/scan.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/scatter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/swap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/assign_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/execution_policy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/find.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/for_each.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/generate.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/get_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/iter_swap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/malloc_and_free.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/reduce.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/reduce_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/scan.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/scan_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/swap_ranges.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/temporary_buffer.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/assign_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/accumulate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/adjacent_difference.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/copy.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/detail/stable_merge_sort.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/gather.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/merge.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/reduce.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/reduce_by_key.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/scan.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/scatter.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/sort.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/async.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/bulk.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/choose_sizes.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/alignment.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/apply_from_tuple.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/async.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/choose_sizes.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/closure.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_launcher/cuda_launch_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_launcher/cuda_launcher.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_launcher/parameter_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_launcher/runtime_introspection.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_launcher/runtime_introspection.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_launcher/triple_chevron_launcher.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/cuda_task.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/guarded_cuda_runtime_api.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/head_flags.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/is_contiguous_iterator.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/pointer_traits.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/synchronize.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/tail_flags.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/terminate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/throw_on_error.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/tuple_meta_transform.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/detail/tuple_transform.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/execution_policy.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/future.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/iterator.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/iterator/strided_iterator.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/malloc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/uninitialized.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_cross_system.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_cross_system.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_device_to_device.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_device_to_device.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/decomposition.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/error.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/execute_on_stream.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/execution_policy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/for_each.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/get_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/guarded_cuda_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/guarded_driver_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/iter_swap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/malloc_and_free.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_by_key.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_intervals.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/scan.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/scan.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/swap_ranges.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/synchronize.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/synchronize.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/terminate.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/throw_on_error.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/trivial_copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/trivial_copy.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/cuda/error.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/assign_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/equal.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/find.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/for_each.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/generate.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/get_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/iter_swap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/malloc_and_free.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/mismatch.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/reduce.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/reduce_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/replace.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/scan.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/scan_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/scatter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/swap_ranges.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/temporary_buffer.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/uninitialized_fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/bad_alloc.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/errno.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/error_category.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/error_code.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/error_condition.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/advance.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/advance.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/copy.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/distance.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/distance.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/equal.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/equal.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/find.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/find.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/for_each.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/generate.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/generate.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/memory.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/memory.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/mismatch.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/mismatch.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce_by_key.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/replace.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/replace.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan_by_key.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scatter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scatter.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/select_system.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/swap_ranges.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/swap_ranges.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/tag.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/temporary_buffer.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/temporary_buffer.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/transform.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/uninitialized_fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/uninitialized_fill.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/assign_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/copy.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/equal.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/execution_policy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/find.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/for_each.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/general_copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/generate.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/get_value.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/iter_swap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/malloc_and_free.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/mismatch.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/reduce.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/reduce_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/replace.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/scan.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/scan_by_key.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/scatter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/swap_ranges.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/temporary_buffer.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/trivial_copy.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/uninitialized_fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/detail/system_error.inl
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/error_code.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system/system_error.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/system_error.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/transform.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/tuple.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/uninitialized_fill.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/thrust/version.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o: src/caffe/layers/cudnn_softmax_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_softmax_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_softmax_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o.cmake
@@ -10038,7 +9242,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/layers/batch_norm_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -10293,7 +9496,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -10345,7 +9547,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o: src/caffe/layers/batch_norm_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_batch_norm_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_batch_norm_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o.cmake
@@ -10357,7 +9559,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/layers/crop_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -10612,7 +9813,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -10664,7 +9864,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o: src/caffe/layers/crop_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_crop_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_crop_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o.cmake
@@ -10679,7 +9879,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cros
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/layers/sigmoid_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -10934,7 +10133,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cros
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -10986,7 +10184,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cros
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o: src/caffe/layers/sigmoid_cross_entropy_loss_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.cmake
@@ -10998,7 +10196,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/layers/eltwise_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -11255,7 +10452,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -11307,219 +10503,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o: src/caffe/layers/eltwise_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_eltwise_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_eltwise_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/layers/base_conv_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/layers/conv_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/layers/cudnn_conv_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/util/im2col.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: src/caffe/layers/cudnn_conv_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -11533,24 +10561,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -11563,22 +10579,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -11621,15 +10629,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o: src/caffe/layers/cudnn_conv_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_conv_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_conv_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o.cmake
@@ -11642,7 +10644,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/layers/bias_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -11897,7 +10898,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -11949,222 +10949,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o: src/caffe/layers/bias_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_bias_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_bias_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/cudnn_lrn_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/eltwise_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/lrn_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/neuron_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/pooling_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/power_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/layers/split_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: src/caffe/layers/cudnn_lrn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -12178,24 +11007,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -12208,22 +11025,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -12266,15 +11075,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o: src/caffe/layers/cudnn_lrn_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_lrn_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_lrn_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o.cmake
@@ -12288,7 +11091,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/net.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/util/format.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: include/caffe/util/math_functions.hpp
@@ -12545,7 +11347,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -12597,7 +11398,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o: src/caffe/layers/recurrent_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_recurrent_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_recurrent_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o.cmake
@@ -12609,7 +11410,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/layers/silence_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -12864,7 +11664,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -12916,7 +11715,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o: src/caffe/layers/silence_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_silence_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_silence_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o.cmake
@@ -12931,7 +11730,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/syncedmem.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/util/blocking_queue.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -13191,7 +11989,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -13243,7 +12040,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o: src/caffe/layers/base_data_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_base_data_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_base_data_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o.cmake
@@ -13259,7 +12056,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/syncedmem.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/util/blocking_queue.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -13559,7 +12355,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -13611,7 +12406,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o: src/caffe/layers/hdf5_data_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_hdf5_data_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_hdf5_data_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o.cmake
@@ -13624,7 +12419,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_lo
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/layers/loss_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -13879,7 +12673,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_lo
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -13931,7 +12724,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_lo
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o: src/caffe/layers/euclidean_loss_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_euclidean_loss_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_euclidean_loss_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o.cmake
@@ -13943,7 +12736,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/layers/slice_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -14198,7 +12990,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -14250,7 +13041,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o: src/caffe/layers/slice_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_slice_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_slice_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o.cmake
@@ -14262,7 +13053,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/layers/im2col_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/util/im2col.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: include/caffe/util/math_functions.hpp
@@ -14518,7 +13308,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -14570,218 +13359,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o: src/caffe/layers/im2col_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_im2col_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_im2col_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/layers/cudnn_tanh_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/layers/neuron_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/layers/tanh_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: src/caffe/layers/cudnn_tanh_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -14795,24 +13417,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -14825,22 +13435,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -14883,15 +13485,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_l
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o: src/caffe/layers/cudnn_tanh_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_tanh_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_tanh_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o.cmake
@@ -14905,7 +13501,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/net.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/util/format.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: include/caffe/util/math_functions.hpp
@@ -15162,7 +13757,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -15214,7 +13808,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o: src/caffe/layers/lstm_unit_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_lstm_unit_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_lstm_unit_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o.cmake
@@ -15226,7 +13820,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/layers/softmax_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -15487,7 +14080,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -15913,217 +14505,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o: src/caffe/layers/softmax_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_softmax_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_softmax_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/layers/cudnn_pooling_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/layers/pooling_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: src/caffe/layers/cudnn_pooling_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -16137,24 +14563,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_poolin
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -16167,22 +14581,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_poolin
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -16225,15 +14631,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_poolin
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o: src/caffe/layers/cudnn_pooling_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_pooling_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_pooling_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o.cmake
@@ -16246,7 +14646,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/layers/neuron_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -16501,7 +14900,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -16553,7 +14951,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o: src/caffe/layers/exp_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_exp_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_exp_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o.cmake
@@ -16566,7 +14964,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/layers/conv_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/util/im2col.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: include/caffe/util/math_functions.hpp
@@ -16822,7 +15219,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -16874,7 +15270,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o: src/caffe/layers/conv_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_conv_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_conv_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o.cmake
@@ -16887,7 +15283,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/layers/relu_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -17142,7 +15537,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -17194,7 +15588,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.c
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o: src/caffe/layers/relu_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_relu_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_relu_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o.cmake
@@ -17206,7 +15600,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/layers/split_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -17461,7 +15854,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -17513,7 +15905,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o: src/caffe/layers/split_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_split_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_split_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o.cmake
@@ -17526,7 +15918,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/layers/neuron_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -17781,7 +16172,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -17833,222 +16223,51 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o: src/caffe/layers/log_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_log_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_log_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.cmake
 
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/blob.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layer_factory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/cudnn_lcn_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/eltwise_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/lrn_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/neuron_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/pooling_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/power_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/layers/split_layer.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/util/cudnn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/util/math_functions.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: src/caffe/layers/cudnn_lcn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/_G_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/alloca.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/asm-generic/errno-base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/asm-generic/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/assert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/atlas/cblas.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/assert.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/checked_delete.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/compiler/gcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/compiler/nvcc.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/no_tr1/memory.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/no_tr1/utility.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/platform/linux.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/posix_features.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/select_compiler_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/select_platform_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/select_stdlib_config.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/stdlib/libstdcpp3.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/suffix.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/config/user.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/current_function.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/detail/sp_typeinfo.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/detail/workaround.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/exception/detail/attribute_noreturn.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/exception/exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/memory_order.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/bad_weak_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/operator_bool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/shared_count.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_convertible.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/spinlock_sync.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/detail/yield_k.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/smart_ptr/shared_ptr.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/boost/throw_exception.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/algorithm
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/backward/auto_ptr.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/backward/binders.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/algorithmfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/atomic_lockfree_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/basic_ios.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/basic_string.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/char_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/codecvt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/concept_check.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/cpp_type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/cxxabi_forced.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/exception_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/fstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/functexcept.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/ios_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/istream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/locale_classes.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/locale_facets.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/localefwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/memoryfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/move.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/ostream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/ostream_insert.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/postypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/range_access.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/sstream.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_algo.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_algobase.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_bvector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_construct.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_function.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_heap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_iterator_base_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_map.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_multimap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_multiset.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_pair.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_raw_storage_iter.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_relops.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_tempbuf.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/bits/vector.tcc
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/climits
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/clocale
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cmath
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cstddef
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cstdio
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cstdlib
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cwchar
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/cwctype
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/debug/debug.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/exception
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ext/alloc_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ext/atomicity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ext/new_allocator.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ext/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ext/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/fstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/functional
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ios
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/iosfwd
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/iostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/iterator
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/map
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/new
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/ostream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/set
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/sstream
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/streambuf
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/string
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/typeinfo
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/utility
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/c++/4.8/vector
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/ctype.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/features.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/google/protobuf/unknown_field_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/linux/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/linux/limits.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/math.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/pthread.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/stdc-predef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/stdlib.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/string.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/time.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/wctype.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap-16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/confname.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/environments.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_val.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_valf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/huge_vall.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/inf.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathdef.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/mathinline.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/nan.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/posix_opt.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
@@ -18062,24 +16281,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/unistd.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/atomic_word.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/basic_file.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++config.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++io.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/cpu_defines.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_base.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/ctype_inline.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr-default.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/gthr.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/c++/4.8/bits/os_defines.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
@@ -18092,22 +16299,14 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/common_functions.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuComplex.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cublas_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cublas_v2.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda_device_runtime_api.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda_fp16.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda_runtime.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/cudnn.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/device_double_functions.h
@@ -18150,15 +16349,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_la
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/vector_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/vector_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/cuda/include/vector_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/include/gflags/gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/include/gflags/gflags_declare.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/include/gflags/gflags_gflags.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/include/glog/log_severity.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/include/glog/logging.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o: src/caffe/layers/cudnn_lcn_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_lcn_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_cudnn_lcn_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o.cmake
@@ -18170,7 +16363,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reinde
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/layers/batch_reindex_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -18425,7 +16617,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reinde
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -18477,7 +16668,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reinde
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o: src/caffe/layers/batch_reindex_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_batch_reindex_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_batch_reindex_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o.cmake
@@ -18491,7 +16682,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/layers/softmax_loss_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -18748,7 +16938,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -18800,7 +16989,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o: src/caffe/layers/softmax_loss_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_softmax_loss_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_softmax_loss_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o.cmake
@@ -18812,7 +17001,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/layers/pooling_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -19069,7 +17257,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -19121,7 +17308,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_laye
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o: src/caffe/layers/pooling_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_pooling_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_pooling_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o.cmake
@@ -19138,7 +17325,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/layers/split_layer.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/proto/caffe.pb.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/syncedmem.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -19393,7 +17579,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -19445,14 +17630,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o: src/caffe/layers/lrn_layer.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_lrn_layer.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_lrn_layer.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o.cmake
 
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: include/caffe/util/math_functions.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: include/caffe/util/mkl_alternate.hpp
@@ -19600,17 +17783,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/include/limits.h
@@ -19711,7 +17883,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -19752,7 +17923,11 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/texture_fetch_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/texture_indirect_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/texture_types.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/adjacent_difference.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/advance.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/copy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/count.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/adjacent_difference.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/advance.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/allocator/allocator_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/allocator/allocator_traits.inl
@@ -19785,6 +17960,9 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/contiguous_storage.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/copy.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/copy_if.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/copy_if.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/count.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/cstdint.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/device_free.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/device_malloc.inl
@@ -19796,6 +17974,7 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/equal.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/execute_with_allocator.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/extrema.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/fill.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/find.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/for_each.inl
@@ -19815,16 +17994,21 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/functional/operators/relational_operators.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/functional/placeholder.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/functional/value.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/gather.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/generate.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/get_iterator_value.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/host_vector.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/integer_math.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/integer_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/internal_functional.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/malloc_and_free.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/merge.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/minmax.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/mismatch.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/numeric_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/overlapped_copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/pair.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/partition.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/pointer.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/pointer.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/range/head_flags.h
@@ -19835,18 +18019,26 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/reference.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/reference.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/reference_forward_declaration.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/remove.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/replace.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/reverse.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/scan.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/scatter.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/seq.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/sequence.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/set_operations.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/sort.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/static_assert.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/swap.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/swap.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/swap_ranges.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/tabulate.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/temporary_array.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/temporary_array.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/temporary_buffer.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/transform.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/transform_reduce.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/trivial_sequence.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/tuple.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/tuple_meta_transform.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/detail/tuple_transform.h
@@ -19875,10 +18067,13 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/device_vector.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/distance.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/equal.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/extrema.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/find.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/for_each.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/functional.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/gather.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/generate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/host_vector.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/iterator/constant_iterator.h
@@ -19923,30 +18118,56 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/iterator/transform_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/iterator/zip_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/memory.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/merge.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/mismatch.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/pair.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/partition.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/reduce.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/remove.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/replace.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/reverse.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/scan.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/scatter.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/sequence.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/set_operations.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/sort.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/swap.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/adjacent_difference.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/assign_value.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/binary_search.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/copy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/copy_if.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/extrema.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/find.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/for_each.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/generate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/get_value.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/iter_swap.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/malloc_and_free.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/merge.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/par.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/partition.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/reduce_by_key.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/remove.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/scan.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/scan_by_key.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/set_operations.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/sort.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/swap_ranges.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/temporary_buffer.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/transform.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/unique.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/detail/unique_by_key.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cpp/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/adjacent_difference.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/adjacent_difference.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/assign_value.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/block/copy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/block/exclusive_scan.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/block/inclusive_scan.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/block/reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/bulk/algorithm/accumulate.hpp
@@ -19998,10 +18219,109 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_cross_system.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_device_to_device.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_device_to_device.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_if.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/copy_if.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_discontinuity.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_exchange.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_histogram.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_load.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_radix_rank.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_radix_sort.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_raking_layout.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_reduce.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_scan.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_shift.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/block_store.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_histogram_atomic.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_histogram_sort.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_reduce_raking.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_reduce_raking_commutative_only.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_reduce_warp_reductions.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_scan_raking.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block/specializations/block_scan_warp_scans.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_histogram_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_radix_sort_downsweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_radix_sort_upsweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_reduce_by_key_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_reduce_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_scan_prefix_operators.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_scan_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/block_select_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/specializations/block_histogram_gatomic_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/specializations/block_histogram_satomic_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/block_sweep/specializations/block_histogram_sort_sweep.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/cub.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/device_histogram.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/device_partition.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/device_radix_sort.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/device_reduce.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/device_scan.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/device_select.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/dispatch/device_histogram_dispatch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/dispatch/device_radix_sort_dispatch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/dispatch/device_reduce_by_key_dispatch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/dispatch/device_reduce_dispatch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/dispatch/device_scan_dispatch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/device/dispatch/device_select_dispatch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/grid/grid_even_share.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/grid/grid_mapping.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/grid/grid_queue.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/host/spinlock.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/arg_index_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/cache_modified_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/cache_modified_output_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/constant_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/counting_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/tex_obj_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/tex_ref_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/iterator/transform_input_iterator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/thread/thread_load.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/thread/thread_operators.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/thread/thread_reduce.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/thread/thread_scan.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/thread/thread_store.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_allocator.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_arch.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_debug.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_device.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_macro.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_namespace.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_ptx.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/util_type.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/warp/specializations/warp_reduce_shfl.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/warp/specializations/warp_reduce_smem.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/warp/specializations/warp_scan_shfl.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/warp/specializations/warp_scan_smem.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/warp/warp_reduce.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cub/warp/warp_scan.cuh
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/cuda_launch_config.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/decomposition.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/default_decomposition.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/default_decomposition.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/alignment.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/balanced_path.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/launch_calculator.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/launch_calculator.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/launch_closure.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/launch_closure.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/merge.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/set_operation.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/set_operation.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_merge_sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_merge_sort.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_primitive_sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_primitive_sort.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_radix_sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_radix_sort.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_sort_each.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/stable_sort_each.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/uninitialized.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/detail/virtualized_smem_closure.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/error.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/execute_on_stream.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/extern_shared_ptr.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/for_each.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/for_each.inl
@@ -20010,72 +18330,120 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/guarded_driver_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/iter_swap.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/malloc_and_free.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/merge.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/merge.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/par.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_by_key.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_by_key.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_intervals.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_intervals.hpp
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/reduce_intervals.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/runtime_introspection.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/runtime_introspection.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/scan.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/scan.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/set_difference.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/set_intersection.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/set_operations.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/set_symmetric_difference.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/set_union.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/sort.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/swap_ranges.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/synchronize.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/synchronize.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/temporary_indirect_permutation.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/terminate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/throw_on_error.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/transform.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/trivial_copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/detail/trivial_copy.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/error.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/cuda/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/adjacent_difference.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/assign_value.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/copy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/copy_if.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/count.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/equal.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/extrema.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/find.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/for_each.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/gather.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/generate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/get_value.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/iter_swap.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/malloc_and_free.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/merge.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/mismatch.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/partition.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/reduce_by_key.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/remove.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/replace.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/reverse.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/scan.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/scan_by_key.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/scatter.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/sequence.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/set_operations.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/sort.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/swap_ranges.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/tabulate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/temporary_buffer.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/transform.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/transform_reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/adl/uninitialized_fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/bad_alloc.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/error_category.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/error_code.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/error_condition.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/adjacent_difference.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/adjacent_difference.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/advance.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/advance.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/copy.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/copy_if.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/copy_if.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/count.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/count.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/distance.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/distance.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/equal.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/equal.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/extrema.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/extrema.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/find.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/find.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/for_each.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/gather.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/gather.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/generate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/generate.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/memory.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/memory.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/merge.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/merge.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/mismatch.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/mismatch.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/partition.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/partition.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce_by_key.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reduce_by_key.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/remove.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/remove.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/replace.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/replace.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reverse.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/reverse.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scan_by_key.h
@@ -20083,46 +18451,86 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scatter.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/scatter.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/select_system.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/sequence.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/sequence.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/set_operations.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/set_operations.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/sort.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/swap_ranges.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/swap_ranges.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/tabulate.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/tabulate.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/tag.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/temporary_buffer.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/temporary_buffer.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/transform.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/transform.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/transform_reduce.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/transform_reduce.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/type_traits.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/uninitialized_fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/generic/uninitialized_fill.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/internal/decompose.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/adjacent_difference.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/assign_value.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/binary_search.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/copy.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/copy_backward.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/copy_if.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/count.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/equal.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/execution_policy.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/extrema.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/find.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/for_each.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/gather.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/general_copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/generate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/get_value.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/insertion_sort.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/iter_swap.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/malloc_and_free.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/merge.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/merge.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/mismatch.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/partition.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/reduce_by_key.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/remove.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/replace.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/reverse.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/scan.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/scan_by_key.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/scatter.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/sequence.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/set_operations.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/sort.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/stable_merge_sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/stable_merge_sort.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/stable_primitive_sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/stable_primitive_sort.inl
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/stable_radix_sort.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/stable_radix_sort.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/swap_ranges.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/tabulate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/temporary_buffer.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/transform.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/transform_reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/trivial_copy.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/uninitialized_fill.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/unique.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/sequential/unique_by_key.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/detail/system_error.inl
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/error_code.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system/system_error.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/system_error.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/tabulate.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/transform.h
+src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/transform_reduce.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/tuple.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/uninitialized_fill.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/cuda/include/thrust/version.h
@@ -20137,14 +18545,12 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o: src/caffe/util/math_functions.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/./cuda_compile_generated_math_functions.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/./cuda_compile_generated_math_functions.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o.cmake
 
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: include/caffe/common.hpp
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: include/caffe/proto/caffe.pb.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: include/caffe/util/device_alternate.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: include/caffe/util/im2col.hpp
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: src/caffe/util/im2col.cu
@@ -20242,7 +18648,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/stl_tree.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/stl_uninitialized.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/stl_vector.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/stream_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/streambuf.tcc
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/streambuf_iterator.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/bits/stringfwd.h
@@ -20269,7 +18674,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/iosfwd
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/iostream
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/istream
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/iterator
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/map
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/memory
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/c++/4.8/new
@@ -20286,17 +18690,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/errno.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/features.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/getopt.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/descriptor.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/extension_set.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/generated_enum_reflection.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/generated_message_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/message.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/message_lite.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/repeated_field.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/stubs/common.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/stubs/template_util.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/stubs/type_traits.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/google/protobuf/unknown_field_set.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/inttypes.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/libio.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/include/limits.h
@@ -20397,7 +18790,6 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/cuda_runtime_api.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/cuda_surface_types.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/cuda_texture_types.h
-src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/cudnn.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/curand.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/device_atomic_functions.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/cuda/include/device_atomic_functions.hpp
@@ -20449,13 +18841,13 @@ src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: /usr/local/include/glog/vlog_is_on.h
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o.cmake
 src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o: src/caffe/util/im2col.cu
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building NVCC (Device) object src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/.
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util && /usr/local/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Release -D generated_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/./cuda_compile_generated_im2col.cu.o -D generated_cubin_file:STRING=/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/./cuda_compile_generated_im2col.cu.o.cubin.txt -P /home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o.cmake
 
 include/caffe/proto/caffe.pb.cc: src/caffe/proto/caffe.proto
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Running C++/Python protocol buffer compiler on /home/legolas/CNN_libs/caffe-master_last/src/caffe/proto/caffe.proto"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/local/bin/cmake -E make_directory /home/legolas/CNN_libs/caffe-master_last/include/caffe/proto
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/protoc --cpp_out /home/legolas/CNN_libs/caffe-master_last/include/caffe/proto -I /home/legolas/CNN_libs/caffe-master_last/src/caffe/proto /home/legolas/CNN_libs/caffe-master_last/src/caffe/proto/caffe.proto
@@ -20469,7 +18861,7 @@ include/caffe/proto/caffe_pb2.py: include/caffe/proto/caffe.pb.cc
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: src/caffe/net.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/net.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/net.cpp
 
@@ -20492,7 +18884,7 @@ src/caffe/CMakeFiles/caffe.dir/net.cpp.o.provides.build: src/caffe/CMakeFiles/ca
 
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/common.cpp.o: src/caffe/common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/common.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/common.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/common.cpp
 
@@ -20515,7 +18907,7 @@ src/caffe/CMakeFiles/caffe.dir/common.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o: src/caffe/layer_factory.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layer_factory.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layer_factory.cpp
 
@@ -20538,7 +18930,7 @@ src/caffe/CMakeFiles/caffe.dir/layer_factory.cpp.o.provides.build: src/caffe/CMa
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: src/caffe/solvers/nesterov_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/nesterov_solver.cpp
 
@@ -20561,7 +18953,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: src/caffe/solvers/adadelta_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adadelta_solver.cpp
 
@@ -20584,7 +18976,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: src/caffe/solvers/rmsprop_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/rmsprop_solver.cpp
 
@@ -20607,7 +18999,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: src/caffe/solvers/sgd_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/sgd_solver.cpp
 
@@ -20630,7 +19022,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: src/caffe/solvers/adam_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adam_solver.cpp
 
@@ -20651,9 +19043,32 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.provides: src/caffe/CMa
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.provides.build: src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o
 
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o: src/caffe/solvers/ADLR_solver.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_71)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o"
+	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/ADLR_solver.cpp
+
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.i"
+	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/ADLR_solver.cpp > CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.i
+
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.s"
+	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/ADLR_solver.cpp -o CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.s
+
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.requires:
+.PHONY : src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.requires
+
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.provides: src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.requires
+	$(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.provides.build
+.PHONY : src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.provides
+
+src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.provides.build: src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o
+
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: src/caffe/solvers/adagrad_solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solvers/adagrad_solver.cpp
 
@@ -20676,7 +19091,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o: src/caffe/layers/exp_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/exp_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/exp_layer.cpp
 
@@ -20699,7 +19114,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o: src/caffe/layers/inner_product_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/inner_product_layer.cpp
 
@@ -20722,7 +19137,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o: src/caffe/layers/lrn_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/lrn_layer.cpp
 
@@ -20745,7 +19160,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o: src/caffe/layers/cudnn_relu_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_relu_layer.cpp
 
@@ -20768,7 +19183,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o: src/caffe/layers/reshape_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/reshape_layer.cpp
 
@@ -20791,7 +19206,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o: src/caffe/layers/multinomial_logistic_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/multinomial_logistic_loss_layer.cpp
 
@@ -20814,7 +19229,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o.prov
 
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o: src/caffe/layers/elu_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/elu_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/elu_layer.cpp
 
@@ -20837,7 +19252,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/elu_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o: src/caffe/layers/lstm_unit_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/lstm_unit_layer.cpp
 
@@ -20860,7 +19275,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o: src/caffe/layers/absval_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/absval_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/absval_layer.cpp
 
@@ -20883,7 +19298,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/absval_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o: src/caffe/layers/hinge_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/hinge_loss_layer.cpp
 
@@ -20906,7 +19321,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o: src/caffe/layers/softmax_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/softmax_layer.cpp
 
@@ -20929,7 +19344,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o: src/caffe/layers/cudnn_conv_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_conv_layer.cpp
 
@@ -20952,7 +19367,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o: src/caffe/layers/image_data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/image_data_layer.cpp
 
@@ -20975,7 +19390,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o: src/caffe/layers/cudnn_lrn_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_lrn_layer.cpp
 
@@ -20998,7 +19413,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o: src/caffe/layers/reduction_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/reduction_layer.cpp
 
@@ -21021,7 +19436,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o: src/caffe/layers/hdf5_output_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/hdf5_output_layer.cpp
 
@@ -21044,7 +19459,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o: src/caffe/layers/pooling_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/pooling_layer.cpp
 
@@ -21067,7 +19482,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o: src/caffe/layers/concat_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/concat_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/concat_layer.cpp
 
@@ -21090,7 +19505,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/concat_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o: src/caffe/layers/argmax_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/argmax_layer.cpp
 
@@ -21113,7 +19528,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o: src/caffe/layers/loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_90)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_92)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/loss_layer.cpp
 
@@ -21136,7 +19551,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/loss_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o: src/caffe/layers/bnll_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_91)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_93)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/bnll_layer.cpp
 
@@ -21159,7 +19574,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o: src/caffe/layers/deconv_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_92)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_94)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/deconv_layer.cpp
 
@@ -21182,7 +19597,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o: src/caffe/layers/crop_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_93)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_95)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/crop_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/crop_layer.cpp
 
@@ -21205,7 +19620,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/crop_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o: src/caffe/layers/tile_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_94)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_96)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/tile_layer.cpp
 
@@ -21228,7 +19643,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o: src/caffe/layers/flatten_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_95)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_97)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/flatten_layer.cpp
 
@@ -21251,7 +19666,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o: src/caffe/layers/relu_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_96)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_98)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/relu_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/relu_layer.cpp
 
@@ -21274,7 +19689,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o: src/caffe/layers/memory_data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_97)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_99)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/memory_data_layer.cpp
 
@@ -21297,7 +19712,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o: src/caffe/layers/parameter_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_98)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_100)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/parameter_layer.cpp
 
@@ -21320,7 +19735,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: src/caffe/layers/scale_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_99)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_101)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/scale_layer.cpp
 
@@ -21343,7 +19758,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o: src/caffe/layers/accuracy_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_100)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_102)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/accuracy_layer.cpp
 
@@ -21366,7 +19781,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o.provides.build: src/c
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o: src/caffe/layers/base_data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_101)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_103)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/base_data_layer.cpp
 
@@ -21389,7 +19804,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o: src/caffe/layers/spp_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_102)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_104)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/spp_layer.cpp
 
@@ -21412,7 +19827,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o: src/caffe/layers/cudnn_softmax_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_103)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_105)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_softmax_layer.cpp
 
@@ -21435,7 +19850,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o: src/caffe/layers/batch_reindex_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_104)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_106)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/batch_reindex_layer.cpp
 
@@ -21458,7 +19873,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o: src/caffe/layers/recurrent_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_105)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_107)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/recurrent_layer.cpp
 
@@ -21481,7 +19896,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o: src/caffe/layers/slice_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_106)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_108)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/slice_layer.cpp
 
@@ -21504,7 +19919,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o: src/caffe/layers/split_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_107)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_109)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/split_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/split_layer.cpp
 
@@ -21527,7 +19942,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o: src/caffe/layers/tanh_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_108)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_110)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/tanh_layer.cpp
 
@@ -21550,7 +19965,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o: src/caffe/layers/dummy_data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_109)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_111)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/dummy_data_layer.cpp
 
@@ -21573,7 +19988,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o: src/caffe/layers/sigmoid_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_110)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_112)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/sigmoid_layer.cpp
 
@@ -21596,7 +20011,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o: src/caffe/layers/hdf5_data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_111)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_113)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/hdf5_data_layer.cpp
 
@@ -21619,7 +20034,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o: src/caffe/layers/filter_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_112)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_114)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/filter_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/filter_layer.cpp
 
@@ -21642,7 +20057,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/filter_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o: src/caffe/layers/softmax_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_113)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_115)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/softmax_loss_layer.cpp
 
@@ -21665,7 +20080,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o.provides.build: s
 
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o: src/caffe/layers/infogain_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_114)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_116)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/infogain_loss_layer.cpp
 
@@ -21688,7 +20103,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o: src/caffe/layers/cudnn_tanh_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_115)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_117)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_tanh_layer.cpp
 
@@ -21711,7 +20126,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o: src/caffe/layers/bias_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_116)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_118)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/bias_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/bias_layer.cpp
 
@@ -21734,7 +20149,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/bias_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o: src/caffe/layers/eltwise_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_117)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_119)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/eltwise_layer.cpp
 
@@ -21757,7 +20172,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: src/caffe/layers/rnn_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_118)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_120)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/rnn_layer.cpp
 
@@ -21780,7 +20195,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o: src/caffe/layers/window_data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_119)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_121)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/window_data_layer.cpp
 
@@ -21803,7 +20218,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o: src/caffe/layers/threshold_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_120)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_122)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/threshold_layer.cpp
 
@@ -21826,7 +20241,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o: src/caffe/layers/neuron_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_121)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_123)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/neuron_layer.cpp
 
@@ -21849,7 +20264,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o: src/caffe/layers/dropout_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_122)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_124)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/dropout_layer.cpp
 
@@ -21872,7 +20287,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o: src/caffe/layers/batch_norm_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_123)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_125)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/batch_norm_layer.cpp
 
@@ -21895,7 +20310,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o: src/caffe/layers/data_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_124)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_126)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/data_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/data_layer.cpp
 
@@ -21918,7 +20333,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/data_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o: src/caffe/layers/cudnn_sigmoid_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_125)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_127)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_sigmoid_layer.cpp
 
@@ -21941,7 +20356,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o: src/caffe/layers/lstm_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_126)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_128)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/lstm_layer.cpp
 
@@ -21964,7 +20379,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o: src/caffe/layers/prelu_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_127)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_129)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/prelu_layer.cpp
 
@@ -21987,7 +20402,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o: src/caffe/layers/cudnn_lcn_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_128)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_130)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_lcn_layer.cpp
 
@@ -22010,7 +20425,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o: src/caffe/layers/embed_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_129)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_131)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/embed_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/embed_layer.cpp
 
@@ -22033,7 +20448,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/embed_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o: src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_130)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_132)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
 
@@ -22056,7 +20471,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o.pro
 
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o: src/caffe/layers/im2col_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_131)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_133)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/im2col_layer.cpp
 
@@ -22079,7 +20494,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o: src/caffe/layers/conv_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_132)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_134)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/conv_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/conv_layer.cpp
 
@@ -22102,7 +20517,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/conv_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o: src/caffe/layers/euclidean_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_133)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_135)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/euclidean_loss_layer.cpp
 
@@ -22125,7 +20540,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o.provides.build:
 
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o: src/caffe/layers/mvn_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_134)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_136)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/mvn_layer.cpp
 
@@ -22148,7 +20563,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o: src/caffe/layers/silence_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_135)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_137)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/silence_layer.cpp
 
@@ -22171,7 +20586,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o: src/caffe/layers/cudnn_pooling_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_136)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_138)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/cudnn_pooling_layer.cpp
 
@@ -22194,7 +20609,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o.provides.build: 
 
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o: src/caffe/layers/power_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_137)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_139)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/power_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/power_layer.cpp
 
@@ -22217,7 +20632,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/power_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o: src/caffe/layers/log_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_138)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_140)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/log_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/log_layer.cpp
 
@@ -22240,7 +20655,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/log_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o: src/caffe/layers/input_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_139)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_141)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/input_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/input_layer.cpp
 
@@ -22263,7 +20678,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/input_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o: src/caffe/layers/contrastive_loss_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_140)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_142)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/contrastive_loss_layer.cpp
 
@@ -22286,7 +20701,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o.provides.buil
 
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o: src/caffe/layers/base_conv_layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_141)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_143)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layers/base_conv_layer.cpp
 
@@ -22309,7 +20724,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layer.cpp.o: src/caffe/layer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_142)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_144)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/layer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/layer.cpp
 
@@ -22332,7 +20747,7 @@ src/caffe/CMakeFiles/caffe.dir/layer.cpp.o.provides.build: src/caffe/CMakeFiles/
 
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o: src/caffe/internal_thread.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_143)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_145)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/internal_thread.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/internal_thread.cpp
 
@@ -22355,7 +20770,7 @@ src/caffe/CMakeFiles/caffe.dir/internal_thread.cpp.o.provides.build: src/caffe/C
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o: src/caffe/util/hdf5.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_144)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_146)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/hdf5.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/hdf5.cpp
 
@@ -22378,7 +20793,7 @@ src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o: src/caffe/util/db_lmdb.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_145)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_147)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/db_lmdb.cpp
 
@@ -22401,7 +20816,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o.provides.build: src/caffe/CMak
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o: src/caffe/util/insert_splits.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_146)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_148)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/insert_splits.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/insert_splits.cpp
 
@@ -22424,7 +20839,7 @@ src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o: src/caffe/util/db_leveldb.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_147)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_149)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/db_leveldb.cpp
 
@@ -22447,7 +20862,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o.provides.build: src/caffe/C
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o: src/caffe/util/upgrade_proto.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_148)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_150)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/upgrade_proto.cpp
 
@@ -22470,7 +20885,7 @@ src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o: src/caffe/util/io.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_149)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_151)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/io.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/io.cpp
 
@@ -22493,7 +20908,7 @@ src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o.provides.build: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o: src/caffe/util/math_functions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_150)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_152)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/math_functions.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/math_functions.cpp
 
@@ -22516,7 +20931,7 @@ src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o: src/caffe/util/im2col.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_151)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_153)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/im2col.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/im2col.cpp
 
@@ -22539,7 +20954,7 @@ src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o.provides.build: src/caffe/CMake
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o: src/caffe/util/blocking_queue.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_152)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_154)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/blocking_queue.cpp
 
@@ -22562,7 +20977,7 @@ src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o: src/caffe/util/benchmark.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_153)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_155)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/benchmark.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/benchmark.cpp
 
@@ -22585,7 +21000,7 @@ src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o.provides.build: src/caffe/CM
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o: src/caffe/util/signal_handler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_154)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_156)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/signal_handler.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/signal_handler.cpp
 
@@ -22608,7 +21023,7 @@ src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o: src/caffe/util/cudnn.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_155)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_157)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/cudnn.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/cudnn.cpp
 
@@ -22631,7 +21046,7 @@ src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o.provides.build: src/caffe/CMakeF
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o: src/caffe/util/db.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_156)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_158)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/util/db.cpp
 
@@ -22654,7 +21069,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o.provides.build: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/blob.cpp.o: src/caffe/blob.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_157)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_159)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/blob.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/blob.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/blob.cpp
 
@@ -22677,7 +21092,7 @@ src/caffe/CMakeFiles/caffe.dir/blob.cpp.o.provides.build: src/caffe/CMakeFiles/c
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o: src/caffe/parallel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_158)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_160)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/parallel.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/parallel.cpp
 
@@ -22700,7 +21115,7 @@ src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o.provides.build: src/caffe/CMakeFil
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: src/caffe/solver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_159)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_161)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solver.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/solver.cpp
 
@@ -22723,7 +21138,7 @@ src/caffe/CMakeFiles/caffe.dir/solver.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: src/caffe/syncedmem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_160)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_162)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/syncedmem.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/syncedmem.cpp
 
@@ -22746,7 +21161,7 @@ src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o: src/caffe/data_transformer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_161)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/legolas/CNN_libs/caffe-master_last/CMakeFiles $(CMAKE_PROGRESS_163)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o"
 	cd /home/legolas/CNN_libs/caffe-master_last/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/data_transformer.cpp.o -c /home/legolas/CNN_libs/caffe-master_last/src/caffe/data_transformer.cpp
 
@@ -22777,6 +21192,7 @@ caffe_OBJECTS = \
 "CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o" \
+"CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o" \
 "CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o" \
 "CMakeFiles/caffe.dir/layers/exp_layer.cpp.o" \
 "CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o" \
@@ -22874,6 +21290,7 @@ caffe_OBJECTS = \
 caffe_EXTERNAL_OBJECTS = \
 "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o" \
 "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o" \
+"/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o" \
 "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o" \
 "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o" \
 "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o" \
@@ -22941,6 +21358,7 @@ lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cp
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o
+lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o
@@ -23035,6 +21453,7 @@ lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/caffe.dir/data_transformer.cpp.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o
+lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o
 lib/libcaffe.so.1.0.0: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o
@@ -23142,6 +21561,7 @@ src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.requires
+src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/ADLR_solver.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/exp_layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o.requires
@@ -23242,6 +21662,7 @@ src/caffe/CMakeFiles/caffe.dir/clean:
 
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o
+src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_ADLR_solver.cu.o
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o
 src/caffe/CMakeFiles/caffe.dir/depend: src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o
