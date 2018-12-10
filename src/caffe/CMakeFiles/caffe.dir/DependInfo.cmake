@@ -140,7 +140,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include/opencv"
   "/usr/include/atlas"
   "/usr/include/python2.7"
-  "/usr/lib/python2.7/dist-packages/numpy/core/include"
+  "/usr/local/lib/python2.7/dist-packages/numpy/core/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

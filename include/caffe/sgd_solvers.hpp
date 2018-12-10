@@ -125,28 +125,6 @@ class AdaDeltaSolver : public SGDSolver<Dtype> {
 };
 
 
-// ******************* ADLR *******************************//
-
-template <typename Dtype>
-class ADLRSolver : public SGDSolver<Dtype> {
- public:
-  explicit ADLRSolver(const SolverParameter& param)
-      : SGDSolver<Dtype>(param) { ADLRPreSolve(); }
-  explicit ADLRSolver(const string& param_file)
-      : SGDSolver<Dtype>(param_file) { ADLRPreSolve(); }
-  virtual inline const char* type() const { return "ADLR"; }
-
- protected:
-  void ADLRPreSolve();
-  virtual void ComputeUpdateValue(int param_id, Dtype rate);
-
-  DISABLE_COPY_AND_ASSIGN(ADLRSolver);
-};
-
-// ******************* END ADLR ****************************//
-
-
-
 /**
  * @brief AdamSolver, an algorithm for first-order gradient-based optimization
  *        of stochastic objective functions, based on adaptive estimates of
@@ -170,6 +148,31 @@ class AdamSolver : public SGDSolver<Dtype> {
 
   DISABLE_COPY_AND_ASSIGN(AdamSolver);
 };
+
+
+
+// ******************* ADLR *******************************//
+
+template <typename Dtype>
+class ADLRSolver : public SGDSolver<Dtype> {
+ public:
+  explicit ADLRSolver(const SolverParameter& param)
+      : SGDSolver<Dtype>(param) { ADLRPreSolve(); }
+  explicit ADLRSolver(const string& param_file)
+      : SGDSolver<Dtype>(param_file) { ADLRPreSolve(); }
+  virtual inline const char* type() const { return "ADLR"; }
+
+ protected:
+  void ADLRPreSolve();
+  virtual void ComputeUpdateValue(int param_id, Dtype rate);
+
+  DISABLE_COPY_AND_ASSIGN(ADLRSolver);
+};
+
+// ******************* END ADLR ****************************//
+
+
+
 
 }  // namespace caffe
 

@@ -916,7 +916,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_LMDB:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-
 //Details about finding LevelDB
 FIND_PACKAGE_MESSAGE_DETAILS_LevelDB:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libleveldb.so][v()]
 //Details about finding NumPy
-FIND_PACKAGE_MESSAGE_DETAILS_NumPy:INTERNAL=[/usr/lib/python2.7/dist-packages/numpy/core/include][1.8.2][v1.8.2(1.7.1)]
+FIND_PACKAGE_MESSAGE_DETAILS_NumPy:INTERNAL=[/usr/local/lib/python2.7/dist-packages/numpy/core/include][1.14.0][v1.14.0(1.7.1)]
 //Details about finding PROTOBUF
 FIND_PACKAGE_MESSAGE_DETAILS_PROTOBUF:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so][/usr/include][v()]
 //Details about finding PythonInterp

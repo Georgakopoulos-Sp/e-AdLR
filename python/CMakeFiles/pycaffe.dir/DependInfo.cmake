@@ -28,7 +28,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "include"
   "."
   "/usr/include/python2.7"
-  "/usr/lib/python2.7/dist-packages/numpy/core/include"
+  "/usr/local/lib/python2.7/dist-packages/numpy/core/include"
   "/usr/local/include"
   "/usr/local/cuda/include"
   "/usr/local/include/opencv"

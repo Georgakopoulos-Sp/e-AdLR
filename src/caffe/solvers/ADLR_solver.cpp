@@ -168,22 +168,25 @@ namespace caffe {
 
 											 //			std::cout<<this->net_->params().size()<<std::endl;
 											 //			std::cout<<param_id<<std::endl;
-								if ((this->net_->params().size()-2)==param_id){
+								if ((this->net_->params().size()-1)==param_id){
 									this->ofs_Lp.open ("learning_param_ADLR.txt", std::ofstream::out | std::fstream::app);
 												 //			this->ofs_Lp<<mytmp2_now;
 									this->ofs_Lp<<thelearning;
 									this->ofs_Lp<<"\n";
 									this->ofs_Lp.close();
 								}
-								if ((this->net_->params().size()-2)==param_id){
+								if ((this->net_->params().size()-1)==param_id){
 									Dtype tmp=0;
-									for (int jj=0;jj<2;jj++){
+									for (int jj=2;jj<4;jj++){
 										tmp=tmp+this->my_learning_rate[jj];
 									}
 									this->my_adaptive_learning_rate=tmp/2;
 									if (this->my_adaptive_learning_rate<=0){
 										std::cout<<"Do reset"<<std::endl;
 										this->my_adaptive_learning_rate=rate*0.01;
+										for (int jj=0;jj<2;jj++){
+											this->my_learning_rate[jj]=rate*0.01;
+										}
 									}
 								}
 

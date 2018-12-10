@@ -77,7 +77,7 @@ set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64;-DCAFFE_VERSION=1.0.0) # list
-set(CUDA_NVCC_INCLUDE_ARGS "-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last/src;-I/usr/include;-I/usr/local/include;-I/usr/local/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/local/cuda/include;-I/usr/local/cuda/include;-I/usr/local/include/opencv;-I/usr/local/include;-I/usr/include;-I/usr/include/atlas;-I/usr/include/python2.7;-I/usr/lib/python2.7/dist-packages/numpy/core/include;-I/usr/include;-I/usr/local/cuda/include;-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_ARGS "-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last/src;-I/usr/include;-I/usr/local/include;-I/usr/local/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/local/cuda/include;-I/usr/local/cuda/include;-I/usr/local/include/opencv;-I/usr/local/include;-I/usr/include;-I/usr/include/atlas;-I/usr/include/python2.7;-I/usr/local/lib/python2.7/dist-packages/numpy/core/include;-I/usr/include;-I/usr/local/cuda/include;-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-c") # string
 
 if(build_cubin AND NOT generated_cubin_file)
