@@ -1,3 +1,8 @@
+# enhanced Adaptive Learning Rate Algorithm (e-AdLR)
+
+This is an adaptive learning rate algorithm for Convolutional Neural Networks training, accepted on International Joint Conference on Neural Networks (IJCNN) will be held at the InterContinental Budapest Hotel  in Budapest, Hungary on July 14-19, 2019.
+
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
