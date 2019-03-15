@@ -3,6 +3,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang)
+foreach(lang )
   include(CMakeFiles/symlink_to_build.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

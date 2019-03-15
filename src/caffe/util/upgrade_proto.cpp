@@ -1061,6 +1061,7 @@ bool UpgradeSolverType(SolverParameter* solver_param) {
       break;
     case SolverParameter_SolverType_ADAM:
       type = "Adam";
+      break;
     case SolverParameter_SolverType_ADLR:
       type = "ADLR";
       break;

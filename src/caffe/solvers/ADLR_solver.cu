@@ -6,21 +6,21 @@ namespace caffe {
 
 template <typename Dtype>
 __global__ void ADLRUpdate(int N, Dtype* g, Dtype* h,
-    Dtype momentum, Dtype local_rate) {
+    Dtype momentum, Dtype local_rate, Dtype layer_select) {
   CUDA_KERNEL_LOOP(i, N) {
     g[i] = h[i] = momentum*h[i] + local_rate*g[i];
   }
 }
 template <typename Dtype>
 void ADLR_update_gpu(int N, Dtype* g, Dtype* h, Dtype momentum,
-    Dtype local_rate) {
+    Dtype local_rate, Dtype layer_select) {
   ADLRUpdate<Dtype>  // NOLINT_NEXT_LINE(whitespace/operators)
       <<<CAFFE_GET_BLOCKS(N), CAFFE_CUDA_NUM_THREADS>>>(
-      N, g, h, momentum, local_rate);
+      N, g, h, momentum, local_rate, layer_select);
   CUDA_POST_KERNEL_CHECK;
 }
-template void ADLR_update_gpu<float>(int, float*, float*, float, float);
-template void ADLR_update_gpu<double>(int, double*, double*, double, double);
+template void ADLR_update_gpu<float>(int, float*, float*, float, float, float);
+template void ADLR_update_gpu<double>(int, double*, double*, double, double, double);
 
 
 }  // namespace caffe

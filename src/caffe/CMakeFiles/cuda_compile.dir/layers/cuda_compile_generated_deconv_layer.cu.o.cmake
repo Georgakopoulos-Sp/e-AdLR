@@ -70,14 +70,14 @@ set(generated_file_internal "/home/legolas/CNN_libs/caffe-master_last/src/caffe/
 set(generated_cubin_file_internal "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/cuda_compile.dir/layers/./cuda_compile_generated_deconv_layer.cu.o.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "/usr/local/cuda/bin/nvcc") # path
-set(CUDA_NVCC_FLAGS -gencode;arch=compute_61,code=sm_61;-Xcudafe;--diag_suppress=cc_clobber_ignored;-Xcudafe;--diag_suppress=integer_sign_change;-Xcudafe;--diag_suppress=useless_using_declaration;-Xcudafe;--diag_suppress=set_but_not_used;-DUSE_LMDB;-DUSE_LEVELDB;-DUSE_CUDNN;-DUSE_OPENCV;-DWITH_PYTHON_LAYER;-Xcompiler;-fPIC ;; ) # list
+set(CUDA_NVCC_FLAGS -gencode;arch=compute_75,code=sm_75;-Xcudafe;--diag_suppress=cc_clobber_ignored;-Xcudafe;--diag_suppress=integer_sign_change;-Xcudafe;--diag_suppress=useless_using_declaration;-Xcudafe;--diag_suppress=set_but_not_used;-DUSE_LMDB;-DUSE_LEVELDB;-DUSE_CUDNN;-DUSE_OPENCV;-DWITH_PYTHON_LAYER;-Xcompiler;-fPIC ;; ) # list
 # Build specific configuration flags
 set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_RELEASE  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )
 set(CUDA_NVCC_FLAGS_RELWITHDEBINFO  ; )
 set(nvcc_flags -m64;-DCAFFE_VERSION=1.0.0) # list
-set(CUDA_NVCC_INCLUDE_ARGS "-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last/src;-I/usr/include;-I/usr/local/include;-I/usr/local/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/local/cuda/include;-I/usr/local/cuda/include;-I/usr/local/include/opencv;-I/usr/local/include;-I/usr/include;-I/usr/include/atlas;-I/usr/include/python2.7;-I/usr/local/lib/python2.7/dist-packages/numpy/core/include;-I/usr/include;-I/usr/local/cuda/include;-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last") # list (needs to be in quotes to handle spaces properly).
+set(CUDA_NVCC_INCLUDE_ARGS "-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last/src;-I/usr/include;-I/usr/local/include;-I/usr/local/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/include;-I/usr/local/cuda/include;-I/usr/local/cuda/include;-I/usr/local/include;-I/usr/local/include/opencv;-I/usr/include;-I/usr/include/atlas;-I/usr/include/python2.7;-I/usr/local/lib/python2.7/dist-packages/numpy/core/include;-I/usr/include;-I/usr/local/cuda/include;-I/home/legolas/CNN_libs/caffe-master_last/include;-I/home/legolas/CNN_libs/caffe-master_last") # list (needs to be in quotes to handle spaces properly).
 set(format_flag "-c") # string
 
 if(build_cubin AND NOT generated_cubin_file)
@@ -169,7 +169,7 @@ cuda_execute_process(
 # For CUDA 2.3 and below, -G -M doesn't work, so remove the -G flag
 # for dependency generation and hope for the best.
 set(depends_CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS}")
-set(CUDA_VERSION 8.0)
+set(CUDA_VERSION 10.0)
 if(CUDA_VERSION VERSION_LESS "3.0")
   cmake_policy(PUSH)
   # CMake policy 0007 NEW states that empty list elements are not

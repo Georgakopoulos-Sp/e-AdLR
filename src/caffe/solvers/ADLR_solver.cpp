@@ -22,11 +22,12 @@ namespace caffe {
 #ifndef CPU_ONLY
 	template <typename Dtype>
 		void ADLR_update_gpu(int N, Dtype* g, Dtype* h, Dtype momentum,
-    Dtype local_rate);
+    Dtype local_rate, Dtype layer_select);
 #endif
 
 	template <typename Dtype>
 		void ADLRSolver<Dtype>::ComputeUpdateValue(int param_id, Dtype rate) {
+            const Dtype layer_select = this->param_.layer_selection();
 			const vector<Blob<Dtype>*>& net_params = this->net_->learnable_params();
 			const vector<float>& net_params_lr = this->net_->params_lr();
 			Dtype momentum = this->param_.momentum();
@@ -155,7 +156,7 @@ namespace caffe {
 								ADLR_update_gpu(net_params[param_id]->count(),
 						        net_params[param_id]->mutable_gpu_diff(),
 						        this->history_[param_id]->mutable_gpu_data(),
-						        momentum, this->my_adaptive_learning_rate);
+						        momentum, this->my_adaptive_learning_rate, layer_select);
 											 
 								caffe_copy(net_params[param_id]->count(),
 										 this->history_[param_id]->gpu_data(),
@@ -177,14 +178,14 @@ namespace caffe {
 								}
 								if ((this->net_->params().size()-1)==param_id){
 									Dtype tmp=0;
-									for (int jj=2;jj<4;jj++){
+									for (int jj=((layer_select*2) - 2);jj<(layer_select*2);jj++){
 										tmp=tmp+this->my_learning_rate[jj];
 									}
 									this->my_adaptive_learning_rate=tmp/2;
 									if (this->my_adaptive_learning_rate<=0){
 										std::cout<<"Do reset"<<std::endl;
 										this->my_adaptive_learning_rate=rate*0.01;
-										for (int jj=0;jj<2;jj++){
+										for (int jj=((layer_select*2) - 2);jj<(layer_select*2);jj++){
 											this->my_learning_rate[jj]=rate*0.01;
 										}
 									}

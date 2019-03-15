@@ -76,13 +76,26 @@ set(CMAKE_DEPENDS_CHECK_CXX
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS
+set(CMAKE_TARGET_DEFINITIONS_CXX
   "CAFFE_VERSION=1.0.0"
   "GTEST_USE_OWN_TR1_TUPLE"
+  "OPENCV_TRAITS_ENABLE_DEPRECATED"
   "USE_CUDNN"
   "USE_LEVELDB"
   "USE_LMDB"
   "USE_OPENCV"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "include"
+  "."
+  "src"
+  "/usr/include/hdf5/serial"
+  "/usr/local/cuda/include"
+  "/usr/include/x86_64-linux-gnu"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
@@ -92,16 +105,5 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/legolas/CNN_libs/caffe-master_last/src/caffe/CMakeFiles/caffeproto.dir/DependInfo.cmake"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "include"
-  "."
-  "src"
-  "/usr/local/include"
-  "/usr/local/cuda/include"
-  "/usr/local/include/opencv"
-  "/usr/include/atlas"
-  )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

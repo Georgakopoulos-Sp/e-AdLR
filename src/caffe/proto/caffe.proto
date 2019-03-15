@@ -215,6 +215,7 @@ message SolverParameter {
   optional float delta = 31 [default = 1e-8];
   // parameters for the Adam solver
   optional float momentum2 = 39 [default = 0.999];
+  optional float layer_selection = 50 [default = 1];
 
   // RMSProp decay value
   // MeanSquare(t) = rms_decay*MeanSquare(t-1) + (1-rms_decay)*SquareGradient(t)
