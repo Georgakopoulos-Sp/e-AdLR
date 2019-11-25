@@ -2,20 +2,22 @@
 
 This is an adaptive learning rate algorithm for Convolutional Neural Networks training, accepted on International Joint Conference on Neural Networks (IJCNN) will be held at the InterContinental Budapest Hotel  in Budapest, Hungary on July 14-19, 2019.
 
-@INPROCEEDINGS{e-AdLR,
-author={S. V. {Georgakopoulos} and V. P. {Plagianakos}},
-booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
-title={Efficient Learning Rate Adaptation for Convolutional Neural Network Training},
-year={2019},
-volume={},
-number={},
-pages={1-8},
-doi={10.1109/IJCNN.2019.8852033},
-ISSN={2161-4393},
-month={July},
-}
+Please cite e-AdLR in your publications if it helps your research:
 
+    @inproceedings{e-AdLR,
+     author={S. V. {Georgakopoulos} and V. P. {Plagianakos}},
+     booktitle={2019 International Joint Conference on Neural Networks (IJCNN)},
+     title={Efficient Learning Rate Adaptation for Convolutional Neural Network Training},
+     year={2019},
+     volume={},
+     number={},
+     pages={1-8},
+     doi={10.1109/IJCNN.2019.8852033},
+     ISSN={2161-4393},
+     month={July},
+    }
 
+as well as the following:
 
 # Caffe
 
